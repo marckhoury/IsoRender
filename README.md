@@ -8,6 +8,8 @@ Please send any bug reports to marc.khry@gmail.com
 
 IsoRender reads in a scalar grid from a nhdr file and computes an isosurface for a given isovalue using the IJK library. The resulting mesh is then displayed and can be manipulated or written to a file in either the OFF or OBJ mesh formats. 
 
+![ScreenShot](https://raw.github.com/marckhoury/IsoRender/master/screenshot.png)
+
 Build
 =====
 IsoRender uses the IJK (Isosurface Jeneration Kode) library to construct isosurfaces. Specifically ijkmcube.v0.3.0.tar, which can be downloaded at http://www.cse.ohio-state.edu/research/graphics/isotable/. Extract all the files from this archive into your IsoRender directory. Set the environment variable "IJK_ISOTABLE_DIR" to the location of the isosurface lookup tables, located in the isotable folder. The command looks similar to the following.
